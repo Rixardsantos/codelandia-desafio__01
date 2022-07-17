@@ -1,0 +1,41 @@
+:root {
+  --cor-w: #ffffff;
+  --cor-01: #f3f5f7;
+  --cor-02: #717171;
+  --cor-03: #1a202c;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 414px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: var(--cor-w);
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cor-01);
+}
+
+ul,
+li {
+  text-decoration: none;
+  color: inherit;
+}
